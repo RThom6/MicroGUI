@@ -7,7 +7,7 @@
         "radio": "*",
         "microphone": "*",
         "datalogger": "*",
-        "user-interface-base": "github:microbit-apps/user-interface-base#v0.0.13",
+        "user-interface-base": "github:rthom6/user-interface-base#1ded1951a6b59ebd58c521180d29a9dda7e71010",
         "display-shield": "github:microbit-apps/display-shield#v1.0.4"
     },
     "files": [
@@ -18,15 +18,11 @@
         "graphableFunction.ts",
         "guiComponents.ts"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
+    "testFiles": ["test.ts"],
     "targetVersions": {
         "target": "7.1.15",
         "targetId": "microbit"
     },
-    "supportedTargets": [
-        "microbit"
-    ],
+    "supportedTargets": ["microbit"],
     "preferredEditor": "blocksprj"
 }
